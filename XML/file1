@@ -1,0 +1,2454 @@
+<?xml version='1.0' standalone='yes' ?>
+<LVData xmlns="http://www.ni.com/LVData">
+<Version>20.0</Version>
+<Cluster>
+<Name>System</Name>
+<NumElts>1</NumElts>
+<Cluster>
+<Name>Chassi 0</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>5170R 0</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Chans enable</Name>
+<NumElts>8</NumElts>
+<Boolean>
+<Name>Chan 0</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 1</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 3</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 4</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 5</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 6</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 7</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Trapez config</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>k [ns] </Name>
+<Val>1100</Val>
+</U16>
+<U16>
+<Name>m [ns] </Name>
+<Val>200</Val>
+</U16>
+<U32>
+<Name>t_decay [ns]  </Name>
+<Val>65000</Val>
+</U32>
+<I8>
+<Name>Get energy at %
+ of flat top</Name>
+<Val>70</Val>
+</I8>
+</Cluster>
+<Cluster>
+<Name>Trigger Cluster</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>trig config 0</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 1</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 2</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 3</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 4</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 5</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 6</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 7</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Calibr coef</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>calibr coef ch 0</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 1</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 2</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 3</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 4</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 5</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 6</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 7</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>strob duration[ns]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>diff const [ns]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>5170R 1</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Chans enable</Name>
+<NumElts>8</NumElts>
+<Boolean>
+<Name>Chan 0</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 1</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 3</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 4</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 5</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 6</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 7</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Trapez config</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>k [ns] </Name>
+<Val>1100</Val>
+</U16>
+<U16>
+<Name>m [ns] </Name>
+<Val>200</Val>
+</U16>
+<U32>
+<Name>t_decay [ns]  </Name>
+<Val>65000</Val>
+</U32>
+<I8>
+<Name>Get energy at %
+ of flat top</Name>
+<Val>70</Val>
+</I8>
+</Cluster>
+<Cluster>
+<Name>Trigger Cluster</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>trig config 0</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 1</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 2</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 3</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 4</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 5</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 6</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 7</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Calibr coef</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>calibr coef ch 0</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 1</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 2</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 3</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 4</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 5</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 6</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 7</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>strob duration[ns]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>diff const [ns]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>5170R 2</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Chans enable</Name>
+<NumElts>8</NumElts>
+<Boolean>
+<Name>Chan 0</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 1</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 3</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 4</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 5</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 6</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 7</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Trapez config</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>k [ns] </Name>
+<Val>1100</Val>
+</U16>
+<U16>
+<Name>m [ns] </Name>
+<Val>200</Val>
+</U16>
+<U32>
+<Name>t_decay [ns]  </Name>
+<Val>65000</Val>
+</U32>
+<I8>
+<Name>Get energy at %
+ of flat top</Name>
+<Val>70</Val>
+</I8>
+</Cluster>
+<Cluster>
+<Name>Trigger Cluster</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>trig config 0</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 1</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 2</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 3</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 4</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 5</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 6</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 7</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Calibr coef</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>calibr coef ch 0</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 1</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 2</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 3</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 4</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 5</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 6</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 7</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>strob duration[ns]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>diff const [ns]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>5170R 3</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Chans enable</Name>
+<NumElts>8</NumElts>
+<Boolean>
+<Name>Chan 0</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 1</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 3</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 4</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 5</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 6</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 7</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Trapez config</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>k [ns] </Name>
+<Val>1100</Val>
+</U16>
+<U16>
+<Name>m [ns] </Name>
+<Val>200</Val>
+</U16>
+<U32>
+<Name>t_decay [ns]  </Name>
+<Val>65000</Val>
+</U32>
+<I8>
+<Name>Get energy at %
+ of flat top</Name>
+<Val>70</Val>
+</I8>
+</Cluster>
+<Cluster>
+<Name>Trigger Cluster</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>trig config 0</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 1</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 2</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 3</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 4</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 5</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 6</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 7</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Calibr coef</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>calibr coef ch 0</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 1</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 2</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 3</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 4</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 5</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 6</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 7</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>strob duration[ns]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>diff const [ns]</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>5172</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>Chans enable 5</Name>
+<NumElts>8</NumElts>
+<Boolean>
+<Name>Chan 0</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 1</Name>
+<Val>1</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 2</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 3</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 4</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 5</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 6</Name>
+<Val>0</Val>
+</Boolean>
+<Boolean>
+<Name>Chan 7</Name>
+<Val>0</Val>
+</Boolean>
+</Cluster>
+<Cluster>
+<Name>Trapez config 5</Name>
+<NumElts>4</NumElts>
+<U16>
+<Name>k [ns] </Name>
+<Val>1100</Val>
+</U16>
+<U16>
+<Name>m [ns] </Name>
+<Val>200</Val>
+</U16>
+<U32>
+<Name>t_decay [ns]  </Name>
+<Val>65000</Val>
+</U32>
+<I8>
+<Name>Get energy at %
+ of flat top</Name>
+<Val>70</Val>
+</I8>
+</Cluster>
+<Cluster>
+<Name>Trigger Cluster 5</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>trig config 0</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 1</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 2</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 3</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 4</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 5</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 6</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig config 7</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>0</Val>
+</EB>
+</Cluster>
+</Cluster>
+<Cluster>
+<Name>Calibr coef 5</Name>
+<NumElts>8</NumElts>
+<Cluster>
+<Name>calibr coef ch 0</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 1</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 2</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 3</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 4</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 5</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 6</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+<Cluster>
+<Name>calibr coef ch 7</Name>
+<NumElts>2</NumElts>
+<FXP>
+<Name>a</Name>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000200</Val>
+<Minimum>-0x0000000000020000</Minimum>
+<Maximum>0x000000000001ffff</Maximum>
+<Delta>
+<WordLength>18</WordLength>
+<IntegerLength>9</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+<FXP>
+<Name>b</Name>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Sign>Signed</Sign>
+<Val>0x0000000000000000</Val>
+<Minimum>-0x0000800000000000</Minimum>
+<Maximum>0x00007fffffffffff</Maximum>
+<Delta>
+<WordLength>48</WordLength>
+<IntegerLength>24</IntegerLength>
+<Val>0x0000000000000001</Val>
+</Delta>
+</FXP>
+</Cluster>
+</Cluster>
+<DBL>
+<Name>BGO marker
+duration[ns] 5</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>diff const [ns] 5</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+<Cluster>
+<Name>5764</Name>
+<NumElts>6</NumElts>
+<Cluster>
+<Name>trig marker</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<Cluster>
+<Name>trig cfd</Name>
+<NumElts>3</NumElts>
+<DBL>
+<Name>level (V)</Name>
+<Val>-1.00000000000000E-2</Val>
+</DBL>
+<DBL>
+<Name>hysteresis (V)</Name>
+<Val>1.00000000000000E-3</Val>
+</DBL>
+<EB>
+<Name>trigger slope</Name>
+<Choice>Positive</Choice>
+<Choice>Negative</Choice>
+<Val>1</Val>
+</EB>
+</Cluster>
+<DBL>
+<Name>f</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>shift marker</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>marker duration</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+<DBL>
+<Name>TAC delay</Name>
+<Val>0.00000000000000</Val>
+</DBL>
+</Cluster>
+</Cluster>
+</Cluster>
+</LVData>
